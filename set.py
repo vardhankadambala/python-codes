@@ -1,0 +1,10 @@
+set1=set()
+set1.add(8)
+set1.add(9)
+set1.add((6,7))
+print(set1)
+for i in range(1,6):
+    set1.add(i)
+print(set1)
+set1.pop()
+print(set1)
